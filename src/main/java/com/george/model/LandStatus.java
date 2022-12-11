@@ -6,7 +6,7 @@ public class LandStatus {
 
     private String place;
     private Double moisture;
-    private IrrigationStatus irrigationStatus;
+    private Status irrigationStatus;
 
     public String getPlace() {
         return place;
@@ -24,11 +24,11 @@ public class LandStatus {
         this.moisture = moisture;
     }
 
-    public IrrigationStatus getIrrigationStatus() {
+    public Status getIrrigationStatus() {
         return irrigationStatus;
     }
 
-    public void setIrrigationStatus(IrrigationStatus irrigationStatus) {
+    public void setIrrigationStatus(Status irrigationStatus) {
         this.irrigationStatus = irrigationStatus;
     }
 
